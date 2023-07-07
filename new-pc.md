@@ -153,7 +153,8 @@ Ignorar el error de `operation not permitted`
 Añadir llaves
 
 ```
-cp /mnt/g/Mi\ unidad/.ssh
+mkdir ~/.ssh
+cp /mnt/g/Mi\ unidad/.ssh ~/.ssh
 chmod 600 ~/.ssh/*
 ```
 
