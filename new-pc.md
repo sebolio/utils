@@ -162,9 +162,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 Añadir llaves
 
 ```
-WINDIR=`cmd.exe /c echo %systemdrive%%homepath% 2> /dev/null | tr -d '\r' | xargs -0 wslpath`
-mkdir ~/.ssh
-cp $WINDIR/OneDrive/.ssh/* ~/.ssh
+cp /mnt/g/Mi\ unidad/.ssh
 chmod 600 ~/.ssh/*
 ```
 
