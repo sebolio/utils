@@ -154,7 +154,7 @@ Añadir llaves
 
 ```
 mkdir ~/.ssh
-cp /mnt/g/Mi\ unidad/.ssh ~/.ssh
+cp /mnt/g/Mi\ unidad/.ssh/* ~/.ssh
 chmod 600 ~/.ssh/*
 ```
 
