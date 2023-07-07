@@ -146,7 +146,6 @@ Ignorar el error de `operation not permitted`
 * **[QuickLook](http://0o.cl/quicklook) [▶️](http://0o.cl/quicklook)**
 * **[Wallpaper Engine](http://0o.cl/wallpaperengine) [▶️](http://0o.cl/wallpaperengine)**
 
-### 12.
 ![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
 
 <details>
