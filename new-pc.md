@@ -166,7 +166,3 @@ git clone -b master git@github.com:sebolio/fichero.git vetmaster
 git clone git@github.com:afex-tc/plus-base.git --recursive
 ```
 </details>
-
-| FIN 😉 |
-| --- |
-
