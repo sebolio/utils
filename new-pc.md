@@ -147,6 +147,7 @@ Ignorar el error de `operation not permitted`
 * **[Wallpaper Engine](http://0o.cl/wallpaperengine) [▶️](http://0o.cl/wallpaperengine)**
 
 ### 12.
+![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
 
 <details>
 <summary></summary>
@@ -165,8 +166,6 @@ git clone -b master git@github.com:sebolio/fichero.git vetmaster
 git clone git@github.com:afex-tc/plus-base.git --recursive
 ```
 </details>
-
-![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
 
 | FIN 😉 |
 | --- |
