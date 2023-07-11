@@ -154,7 +154,9 @@ Añadir llaves
 
 ```
 mkdir ~/.ssh
-cp /mnt/g/Mi\ unidad/.ssh/* ~/.ssh
+WINDIR=`cmd.exe /c echo %systemdrive%%homepath% 2> /dev/null | tr -d '\r' | xargs -0 wslpath`
+mkdir ~/.ssh
+cp $WINDIR/OneDrive/.ssh/* ~/.ssh
 chmod 600 ~/.ssh/*
 ```
 
