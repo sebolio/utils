@@ -133,9 +133,6 @@ alias pu=\"git pull\"
 alias p=\"ping nic.cl\"
 \n#powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-\n#google drive
-[[ ! -d /mnt/g ]] && sudo mkdir /mnt/g
-sudo mount -t drvfs G: /mnt/g">>~/.zshrc
 ```
 Ignorar el error de `operation not permitted`
 
