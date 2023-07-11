@@ -136,7 +136,7 @@ alias p=\"ping nic.cl\"
 \n#powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
-Ignorar el error de `operation not permitted`
+Ignorar mensajes de error
 
 ### 11. Instalaciones por click
 
