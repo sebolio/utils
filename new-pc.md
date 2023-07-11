@@ -106,7 +106,7 @@ chsh -s $(which zsh)
 ```
 zsh
 ```
-
+---
 Una vez en zsh, instalar ohmyzsh + p10k + node
 ```
 curl https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/3d2d9802708bb276a5360dd8356bc1bebea2074a/z-p10k.zsh -o .p10k.zsh
