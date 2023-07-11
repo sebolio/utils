@@ -86,7 +86,7 @@ shutdown /r /t 0 /f
 
 ### 8. Configurar Terminal
 * Abrir [Windows Terminal ➡️](http://0o.cl/powershell) y seguir instrucciones para dejarlo como predeterminado
-* Elegir Ubunutu 🐧 como default, guardar y abrir una nueva pestaña del terminal
+* Elegir Ubuntu 🐧 como default, guardar y abrir una nueva pestaña del terminal
 
 ### 9. Habilitar sudo sin password
 ```
