@@ -98,6 +98,8 @@ Instalar zsh, dejarlo default y ejecutarlo
 ```
 sudo apt install zsh -y
 ```
+---
+(Creo que estas 2 no son necesarias, comprobar en proximo formateo)
 ```
 chsh -s $(which zsh)
 ```
