@@ -155,6 +155,7 @@ Añadir llaves
 mkdir ~/.ssh
 WINDIR=`cmd.exe /c echo %systemdrive%%homepath% 2> /dev/null | tr -d '\r' | xargs -0 wslpath`
 cmd.exe /c explorer.exe /select,%userprofile%\\onedrive\\.ssh 2>/dev/null
+sleep .5
 PowerShell.exe -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('Haz clic derecho en [.ssh] -> Mantener siempre en este dispositivo. Presiona Aceptar cuando termine de descargar.')"
 cp $WINDIR/OneDrive/.ssh/* ~/.ssh
 chmod 600 ~/.ssh/*
