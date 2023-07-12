@@ -2,12 +2,6 @@ $\color{green}\textsf{\large \&#129438; Configuración fácil de nuevo PC}$
 
 ![sho600](https://user-images.githubusercontent.com/197329/234124658-535eade7-84a6-43d4-a333-7ca90109d092.png)
 
-### 1. Desactivar acoplamiento y activar `[Impr Pant]`
-* Abrir [Multitarea▶️](https://0o.cl/multitask) y en `Acoplar ventanas` deasctivar 3er "... al arrastrar una ventana a la parte superior"
-
-* Abrir [Teclado▶️](https://0o.cl/keyboard) y en `Teclado en pantalla, teclas de acceso..` activar "Utilizar el botón Impr Pant.."
-
-
 ### 2. Abrir `PowerShell` como administrador
 * Tecla <kbd>⊞</kbd>, escribir `PW` y presionar <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>
 
@@ -29,14 +23,14 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 | choko.bat | Permite ejecutar `choko <programa>` para instalar programa desde Chocolatey, el cual pedirá permisos de administración
 | shoko.bat | Permite hacer búsquedas de programas con `shoko <texto>`
 | .wslconfig | Configura WSL para usar máximo 8gb de RAM
-| seb.reg | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho
+| seb.reg | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas
 </details>
 
 ```bat
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/choko.bat" -OutFile "$HOME\choko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/shoko.bat" -OutFile "$HOME\shoko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/wslconfig" -OutFile "$HOME\.wslconfig"
-Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/a28fccff561fc20595a04260f5c87be343337904/utils.reg" -OutFile "$HOME\seb-utils.reg"
+Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/a61deda7789ed92cdc48abff05a30354fd13dbdd/utils.reg" -OutFile "$HOME\seb-utils.reg"
 reg import $HOME\seb-utils.reg
 ```
 
