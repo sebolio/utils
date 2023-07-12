@@ -94,21 +94,10 @@ shutdown /r /t 0 /f
 sudo sed -i 's/) ALL/) NOPASSWD:ALL/' /etc/sudoers
 ```
 
-### 10. Instalar Zsh y configuraciones
-Instalar zsh, dejarlo default y ejecutarlo
+### 10. Instalar Zsh, Node y configuraciones
 ```
 sudo apt install zsh -y
 ```
----
-(Creo que estas 2 no son necesarias, comprobar en proximo formateo)
-```
-chsh -s $(which zsh)
-```
-```
-zsh
-```
----
-Una vez en zsh, instalar ohmyzsh + p10k + node
 ```
 curl https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/3d2d9802708bb276a5360dd8356bc1bebea2074a/z-p10k.zsh -o .p10k.zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
