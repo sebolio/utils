@@ -127,7 +127,7 @@ Ignorar mensajes de error
 * **[Battle.net](https://download.battle.net/en-us/?product=bnetdesk) [▶️](https://download.battle.net/en-us/?product=bnetdesk)**
 
 * **[WhatsApp](http://0o.cl/whatsapp) [▶️](http://0o.cl/whatsapp)**
-* **[Terminal](http://0o.cl/terminal) [▶️](http://0o.cl/terminal)**
+* **[Actualizar Terminal](http://0o.cl/terminal) [▶️](http://0o.cl/terminal)**
 * **[TransulcentTB](http://0o.cl/translucenttb) [▶️](http://0o.cl/translucenttb)**
 * **[QuickLook](http://0o.cl/quicklook) [▶️](http://0o.cl/quicklook)**
 * **[Wallpaper Engine](http://0o.cl/wallpaperengine) [▶️](http://0o.cl/wallpaperengine)**
