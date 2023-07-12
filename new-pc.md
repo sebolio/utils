@@ -133,7 +133,6 @@ alias json=\"npm run stub\"
 alias stub=\"npm run stub\"
 alias pu=\"git pull\"
 alias p=\"ping nic.cl\"
-\n#powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
 Ignorar mensajes de error
