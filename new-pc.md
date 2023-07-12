@@ -71,6 +71,7 @@ $RemoveRegistry = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts"
 Remove-ItemProperty -name $($WindowsFonts.Families[-1].Name) -path $RemoveRegistry
 New-ItemProperty @RegistryValue
 }
+
 ```
 
 <table><tr><td> $\color{red}\textsf{\Large Ahora reinicia tu PC}$ </td></tr></table>
