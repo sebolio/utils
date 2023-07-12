@@ -2,17 +2,17 @@ $\color{green}\textsf{\large \&#129438; Configuración fácil de nuevo PC}$
 
 ![sho600](https://user-images.githubusercontent.com/197329/234124658-535eade7-84a6-43d4-a333-7ca90109d092.png)
 
-### 2. Abrir `PowerShell` como administrador
+### 1. Abrir `PowerShell` como administrador
 * Tecla <kbd>⊞</kbd>, escribir `PW` y presionar <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>
 
-### 3. Instalar **WSL2**
+### 2. Instalar **WSL2**
 ```
 wsl --install
 ```
 
 Mientras se instala, abrir otro PowerShell de admin y continuar:
 
-### 4. Utilidades Windows
+### 3. Utilidades Windows
 <details>
 <summary>¿Qué es esto?</summary>
 
@@ -34,17 +34,17 @@ Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673
 reg import $HOME\seb-utils.reg
 ```
 
-### 5. Instalar Chocolatey
+### 4. Instalar Chocolatey
 ```bat
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-### 6. Instalar mis programas favoritos:
+### 5. Instalar mis programas favoritos:
 ```bat
 choco install -y --allow -empty-checksums --ignore-checksum googlechrome notion authy-desktop winrar vscode spotify slack telegram qbittorrent firefox tableplus epicgameslauncher steam battle.net goggalaxy vlc evernote postman treesizefree auto-dark-mode
 ```
 
-### 7. Instalar fuentes (🖱️)
+### 6. Instalar fuentes (🖱️)
 1. [Descargar aquí](https://1drv.ms/u/s!An9eKsg-lFZRsJIzweujNblNSrMUQg?e=3K7l8C) (no descomprimir)
 2. Ejecutar esto para instalar:
 ```
@@ -79,16 +79,16 @@ shutdown /r /t 0 /f
 
 ---
 
-### 8. Configurar Terminal
+### 7. Configurar Terminal
 * Abrir [Windows Terminal ➡️](http://0o.cl/powershell) y seguir instrucciones para dejarlo como predeterminado
 * Elegir Ubuntu 🐧 como default, guardar y abrir una nueva pestaña del terminal
 
-### 9. Habilitar sudo sin password
+### 8. Habilitar sudo sin password
 ```
 sudo sed -i 's/) ALL/) NOPASSWD:ALL/' /etc/sudoers
 ```
 
-### 10. Instalar Zsh, Node y configuraciones
+### 9. Instalar Zsh, Node y configuraciones
 ```
 sudo apt install zsh -y
 ```
@@ -121,7 +121,7 @@ alias p=\"ping nic.cl\"
 ```
 Ignorar mensajes de error
 
-### 11. Instalaciones por click
+### 10. Instalaciones por click
 
 * **[Adobe CC](https://creativecloud.adobe.com/en/apps/download/creative-cloud) [▶️](https://creativecloud.adobe.com/en/apps/download/creative-cloud)**
 * **[Battle.net](https://download.battle.net/en-us/?product=bnetdesk) [▶️](https://download.battle.net/en-us/?product=bnetdesk)**
