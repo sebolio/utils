@@ -125,6 +125,7 @@ Ignorar mensajes de error
 
 * **[Adobe CC](https://creativecloud.adobe.com/en/apps/download/creative-cloud) [▶️](https://creativecloud.adobe.com/en/apps/download/creative-cloud)** 🖱️
 * **[Battle.net](https://download.battle.net/en-us/?product=bnetdesk) [▶️](https://download.battle.net/en-us/?product=bnetdesk)** 🖱️
+* **[Morgen](https://www.morgen.so/download) [▶️](https://www.morgen.so/download)** 🖱️
 
 * **[WhatsApp](http://0o.cl/whatsapp) [▶️](http://0o.cl/whatsapp)**
 * **[Actualizar Terminal](http://0o.cl/terminal) [▶️](http://0o.cl/terminal)**
