@@ -129,6 +129,9 @@ Ignorar mensajes de error
 
 ### 11. Instalaciones por click
 
+* **[Adobe CC](https://creativecloud.adobe.com/en/apps/download/creative-cloud) [▶️](https://creativecloud.adobe.com/en/apps/download/creative-cloud)**
+* **[Battle.net](https://download.battle.net/en-us/?product=bnetdesk) [▶️](https://download.battle.net/en-us/?product=bnetdesk)**
+
 * **[WhatsApp](http://0o.cl/whatsapp) [▶️](http://0o.cl/whatsapp)**
 * **[Terminal](http://0o.cl/terminal) [▶️](http://0o.cl/terminal)**
 * **[TransulcentTB](http://0o.cl/translucenttb) [▶️](http://0o.cl/translucenttb)**
