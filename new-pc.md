@@ -144,7 +144,6 @@ mkdir ~/.ssh 2>/dev/null
 WINDIR=`cmd.exe /c echo %systemdrive%%homepath% 2> /dev/null | tr -d '\r' | xargs -0 wslpath`
 while [ ! -f ~/.ssh/config ]; do
   cmd.exe /c explorer.exe /select,%userprofile%\\onedrive\\.ssh 2>/dev/null
-  sleep .5
   PowerShell.exe -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show(\"Para configurar reposotorios:\`n‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\`n\`n-> Haz clic derecho en [.ssh]\`n-> Elige [Mantener siempre en este dispositivo]\`n\`nAcepta cuando termine de descargar.\",'', 'OK', 'Info', 'OK', [System.Windows.MessageBoxOptions]::DefaultDesktopOnly)"
   cp $WINDIR/OneDrive/.ssh/* ~/.ssh
   chmod 600 ~/.ssh/*
