@@ -136,9 +136,7 @@ Ignorar mensajes de error
 ![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
 
 <details>
-<summary>
-  ![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
-</summary>
+<summary></summary>
 Añadir llaves
 
 ```
