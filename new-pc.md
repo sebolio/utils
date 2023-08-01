@@ -20,10 +20,10 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 
 | Archivo | Descripción |
 |-|-|
-| choko.bat | Permite ejecutar `choko <programa>` para instalar programa desde Chocolatey, el cual pedirá permisos de administración
-| shoko.bat | Permite hacer búsquedas de programas con `shoko <texto>`
-| .wslconfig | Configura WSL para usar máximo 8gb de RAM
-| utils.reg | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"
+| [choko.bat](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/choko.bat) | Permite ejecutar `choko <programa>` para instalar programa desde Chocolatey, el cual pedirá permisos de administración
+| [shoko.bat](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/shoko.bat)| Permite hacer búsquedas de programas con `shoko <texto>`
+| [.wslconfig](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/wslconfig) | Configura WSL para usar máximo 8gb de RAM
+| [utils.reg](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/03d1cf94e198df7c4208d638515f54fc36263c20/utils.reg) | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"
 </details>
 
 ```bat
