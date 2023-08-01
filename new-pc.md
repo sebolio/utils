@@ -16,7 +16,7 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 <details>
 <summary>¿Qué es esto?</summary>
 
-**Son 3 archivos que se copiarán en tu $HOME (C:\Users\...)**
+**Son 4 archivos que se copiarán en tu $HOME (C:\Users\...)**
 
 | Archivo | Descripción |
 |-|-|
