@@ -23,7 +23,7 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 | choko.bat | Permite ejecutar `choko <programa>` para instalar programa desde Chocolatey, el cual pedirá permisos de administración
 | shoko.bat | Permite hacer búsquedas de programas con `shoko <texto>`
 | .wslconfig | Configura WSL para usar máximo 8gb de RAM
-| seb.reg | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"
+| utils.reg | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"
 </details>
 
 ```bat
