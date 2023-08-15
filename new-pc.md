@@ -41,7 +41,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### 5. Instalar mis programas favoritos:
 ```bat
-choco install -y --allow -empty-checksums --ignore-checksum googlechrome notion authy-desktop winrar vscode slack epicgameslauncher steam goggalaxy auto-dark-mode discord
+choco install -y --allow -empty-checksums --ignore-checksum authy-desktop winrar vscode slack steam auto-dark-mode discord
 ```
 
 ### 6. Instalar fuentes (🖱️)
@@ -124,7 +124,6 @@ Ignorar mensajes de error
 ### 10. Instalaciones por click
 
 * **[Adobe CC](https://creativecloud.adobe.com/en/apps/download/creative-cloud) [▶️](https://creativecloud.adobe.com/en/apps/download/creative-cloud)** 🖱️
-* **[Battle.net](https://download.battle.net/en-us/?product=bnetdesk) [▶️](https://download.battle.net/en-us/?product=bnetdesk)** 🖱️
 * **[Morgen](https://www.morgen.so/download) [▶️](https://www.morgen.so/download)** 🖱️
 
 * **[WhatsApp](http://0o.cl/whatsapp) [▶️](http://0o.cl/whatsapp)**
