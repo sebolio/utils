@@ -41,7 +41,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### 5. Instalar mis programas favoritos:
 ```bat
-choco install -y --allow -empty-checksums --ignore-checksum authy-desktop winrar vscode slack steam auto-dark-mode discord
+choco install -y --allow -empty-checksums --ignore-checksum googlechrome evernote authy-desktop winrar vscode slack steam auto-dark-mode discord spotify
 ```
 
 ### 6. Instalar fuentes (🖱️)
