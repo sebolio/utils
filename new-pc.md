@@ -41,7 +41,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### 5. Instalar mis programas favoritos:
 ```bat
-choco install -y --allow -empty-checksums --ignore-checksum googlechrome evernote authy-desktop winrar vscode slack steam auto-dark-mode discord spotify
+choco install -y --force --allow -empty-checksums --ignore-checksum googlechrome evernote authy-desktop winrar vscode slack steam auto-dark-mode discord spotify
 ```
 
 ### 6. Instalar fuentes (🖱️)
@@ -110,7 +110,7 @@ echo "
 #alias y comandos
 unalias gp
 function gp { git add -A; git commit -m \"\$*\"; git push }
-alias dev="([ -f bun.lockb ] && bun run dev) || ([ -f pnpm-lock.yaml ] && pnpm run dev) || npm run dev"
+alias dev=\"([ -f bun.lockb ] && bun run dev) || ([ -f pnpm-lock.yaml ] && pnpm run dev) || npm run dev\"
 alias doc=\"npm run storybook\"
 alias json=\"npm run stub\"
 alias stub=\"npm run stub\"
