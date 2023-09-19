@@ -80,7 +80,7 @@ shutdown /r /t 0 /f
 ---
 
 ### 7. Configurar Terminal
-* Abrir [Windows Terminal ➡️](http://0o.cl/powershell) y seguir instrucciones para dejarlo como predeterminado
+* Abrir [Windows Terminal ➡️](http://r.seb.cl/powershell) y seguir instrucciones para dejarlo como predeterminado
 * Elegir Ubuntu 🐧 como default, guardar y abrir una nueva pestaña del terminal
 
 ### 8. Habilitar sudo sin password
@@ -125,12 +125,12 @@ Ignorar mensajes de error
 * **[Adobe CC](https://creativecloud.adobe.com/en/apps/download/creative-cloud) [▶️](https://creativecloud.adobe.com/en/apps/download/creative-cloud)** 🖱️
 * **[Morgen](https://www.morgen.so/download) [▶️](https://www.morgen.so/download)** 🖱️
 
-* **[WhatsApp](http://0o.cl/whatsapp) [▶️](http://0o.cl/whatsapp)**
-* **[Overwatch](http://0o.cl/ow) [▶️](http://0o.cl/ow)**
-* **[Actualizar Terminal](http://0o.cl/terminal) [▶️](http://0o.cl/terminal)**
-* **[TransulcentTB](http://0o.cl/translucenttb) [▶️](http://0o.cl/translucenttb)**
-* **[QuickLook](http://0o.cl/quicklook) [▶️](http://0o.cl/quicklook)**
-* **[Wallpaper Engine](http://0o.cl/wallpaperengine) [▶️](http://0o.cl/wallpaperengine)**
+* **[WhatsApp](http://r.seb.cl/whatsapp) [▶️](http://r.seb.cl/whatsapp)**
+* **[Overwatch](http://r.seb.cl/ow) [▶️](http://r.seb.cl/ow)**
+* **[Actualizar Terminal](http://r.seb.cl/terminal) [▶️](http://r.seb.cl/terminal)**
+* **[TransulcentTB](http://r.seb.cl/translucenttb) [▶️](http://r.seb.cl/translucenttb)**
+* **[QuickLook](http://r.seb.cl/quicklook) [▶️](http://r.seb.cl/quicklook)**
+* **[Wallpaper Engine](http://r.seb.cl/wallpaperengine) [▶️](http://r.seb.cl/wallpaperengine)**
 
 ![](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
 
