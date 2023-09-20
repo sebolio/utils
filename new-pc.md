@@ -41,7 +41,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### 5. Instalar mis programas favoritos:
 ```bat
-choco install -y --force --allow -empty-checksums --ignore-checksum googlechrome evernote authy-desktop winrar vscode slack steam epicgameslauncher auto-dark-mode discord spotify
+choco install -y --force --allow -empty-checksums --ignore-checksum googlechrome evernote authy-desktop winrar vscode slack steam epicgameslauncher auto-dark-mode discord spotify openjdk11jre
 ```
 
 ### 6. Instalar fuentes (🖱️)
@@ -117,6 +117,7 @@ alias stub=\"npm run stub\"
 alias pu=\"git pull\"
 alias p=\"ping nic.cl\"
 \n[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh">>~/.zshrc
+sudo apt update;sudo apt install -y openjdk-11-jre
 ```
 Ignorar mensajes de error
 
