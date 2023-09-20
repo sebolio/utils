@@ -117,6 +117,7 @@ alias stub=\"npm run stub\"
 alias pu=\"git pull\"
 alias p=\"ping nic.cl\"
 \n[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh">>~/.zshrc
+pnpm setup
 sudo apt update;sudo apt install -y openjdk-11-jre
 ```
 Ignorar mensajes de error
