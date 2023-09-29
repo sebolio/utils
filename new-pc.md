@@ -110,7 +110,7 @@ echo "
 #alias y comandos
 unalias gp
 function gp { git add -A; git commit -m \"\$*\"; git push }
-alias dev=\"([ -f bun.lockb ] && bun run dev) || ([ -f pnpm-lock.yaml ] && pnpm run dev) || npm run dev\"
+alias dev=\"([ -f bun.lockb ] && echo bun && bun run dev) || ([ -f pnpm-lock.yaml ] && echo pnpm && pnpm run dev) || npm run dev\"
 alias doc=\"npm run storybook\"
 alias json=\"npm run stub\"
 alias stub=\"npm run stub\"
