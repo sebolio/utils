@@ -96,7 +96,9 @@ sudo apt install zsh -y
 curl https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/3d2d9802708bb276a5360dd8356bc1bebea2074a/z-p10k.zsh -o .p10k.zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-Se solicitará presionar <kbd>Enter</kbd> y cuando termine, pegar esto para implementar `nvm`, `fuente`, `p10k` y `alias`.
+$\color{blue}\textsf{Presionar "enter" antes de seguir}$ 
+
+Luego pegar esto para implementar `nvm`, fuente, `p10k` y `alias`.
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
