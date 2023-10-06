@@ -111,7 +111,9 @@ sed -i 's/"name": "Ubuntu",/"name": "Ubuntu", "font": { "face": "CaskaydiaCove N
 echo "
 #alias y comandos
 unalias gp
+unalias gg
 function gp { git add -A; git commit -m \"\$*\"; git push }
+function gg { git clone git@github.com:sebolio/$1 }
 alias dev=\"([ -f bun.lockb ] && echo bun && bun run dev) || ([ -f pnpm-lock.yaml ] && echo pnpm && pnpm run dev) || npm run dev\"
 alias doc=\"npm run storybook\"
 alias json=\"npm run stub\"
