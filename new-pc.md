@@ -157,9 +157,9 @@ done
 
 Clonar
 ```
+git clone git@github.com:sebolio/enti.git
 git clone git@github.com:sebolio/seb.cl.git
 git clone -b main git@github.com:sebolio/fichero.git fichero
 git clone -b master git@github.com:sebolio/fichero.git vetmaster
-git clone git@github.com:afex-tc/plus-web.git
 ```
 </details>
