@@ -1,7 +1,5 @@
 ## Super Instalador para macOS
 
-### Recomendado
-
 Antes de empezar, desactivar password de `sudo`
 ```
 sudo sed -i '' 's/) ALL/) NOPASSWD:ALL/' /etc/sudoers
