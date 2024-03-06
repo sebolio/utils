@@ -1,4 +1,4 @@
-## Super Instalador para macOS
+$\color{green}\textsf{\large \&#129438; Configuración fácil de nuevo Mac}$ 
 
 Antes de empezar, desactivar password de `sudo`
 ```
