@@ -1,7 +1,5 @@
 $\color{green}\textsf{\large \&#129438; Configuración fácil de nuevo PC}$ 
 
-![sho600](https://user-images.githubusercontent.com/197329/234124658-535eade7-84a6-43d4-a333-7ca90109d092.png)
-
 ### 1. Abrir `PowerShell` como administrador
 * Tecla <kbd>⊞</kbd>, escribir `PW` y presionar <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>
 
