@@ -28,7 +28,7 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/choko.bat" -OutFile "$HOME\choko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/shoko.bat" -OutFile "$HOME\shoko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/wslconfig" -OutFile "$HOME\.wslconfig"
-Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/68db49965ad854f9992c79bba7460deebbbef86e/utils.reg" -OutFile "$HOME\seb-utils.reg"
+Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/c5495d99941f0721e7972e10e97fc7864ce8362e/utils.reg" -OutFile "$HOME\seb-utils.reg"
 reg import $HOME\seb-utils.reg
 ```
 
