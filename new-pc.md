@@ -21,7 +21,7 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 | [choko.bat](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/choko.bat) | Permite ejecutar `choko <programa>` para instalar programa desde Chocolatey, el cual pedirá permisos de administración
 | [shoko.bat](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/shoko.bat)| Permite hacer búsquedas de programas con `shoko <texto>`
 | [.wslconfig](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/wslconfig) | Configura WSL para usar máximo 8gb de RAM
-| [utils.reg](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/68db49965ad854f9992c79bba7460deebbbef86e/utils.reg) | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"<br>👉 Configura gestos de 3 dedos en el Touchpad, para cambiar y cerrar pestañas
+| [utils.reg](https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/c5495d99941f0721e7972e10e97fc7864ce8362e/utils.reg) | Modifica el registro de windows para: <br>👉 Mostrar opción "Administrador de tareas" en click secundario de barra inferior <br>👉 Activar los menús clasicos al hacer clic derecho<br>👉 Hace que la tecla `Impr. Pant` seleccione un área de la pantalla<br>👉 Desactiva la barra de acoplamiento que aparece al arrastrar ventanas<br>👉 Cambia región a Chile<br>👉 Cambia teclado a "Español (España)"<br>👉 Configura gestos de 3 dedos en el Touchpad, para cambiar y cerrar pestañas
 </details>
 
 ```bat
@@ -39,7 +39,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ### 5. Instalar mis programas favoritos:
 ```bat
-choco install -y --force --allow -empty-checksums --ignore-checksum googlechrome evernote notion authy-desktop winrar vscode slack auto-dark-mode telegram tableplus docker-desktop treesizefree steam spotify
+choco install -y --force --allow -empty-checksums --ignore-checksum steam googlechrome notion authy-desktop winrar vscode slack telegram tableplus treesizefree spotify
 ```
 
 ### 6. Instalar fuentes (🖱️)
@@ -111,7 +111,7 @@ echo "
 unalias gp
 unalias gg
 function gp { git add -A; git commit -m \"\$*\"; git push }
-function gg { git clone git@github.com:sebolio/$1 }
+function gg { git clone git@github.com:sebolio/\$1 }
 alias dev=\"([ -f bun.lockb ] && echo bun && bun run dev) || ([ -f pnpm-lock.yaml ] && echo pnpm && pnpm run dev) || npm run dev\"
 alias doc=\"npm run storybook\"
 alias json=\"npm run stub\"
