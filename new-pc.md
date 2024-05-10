@@ -35,7 +35,7 @@ unalias gp
 unalias gg
 function gp { git add -A; git commit -m \"\$*\"; git push }
 function gg { git clone git@github.com:sebolio/\$1 }
-function x { printf "\e[45mPROXY INICIADO EN PUERTO 8888\e[m"; ssh -ND 8888 bot }
+function x { printf \"\\e[45mPROXY INICIADO EN PUERTO 8888\\e[m\"; ssh -ND 8888 bot }
 alias dev=\"([ -f bun.lockb ] && echo bun && bun run dev) || ([ -f pnpm-lock.yaml ] && echo pnpm && pnpm run dev) || npm run dev\"
 alias doc=\"npm run storybook\"
 alias json=\"npm run stub\"
