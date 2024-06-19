@@ -28,7 +28,7 @@ Mientras se instala, abrir otro PowerShell de admin y continuar:
 </details>
 
 ```bat
-Invoke-WebRequest -Uri "https://onedrive.live.com/download?resid=5156943EC82A5E7F%21788787&authkey=!ADnDSv2ft36jfAg"  -OutFile "$HOME\Fuentes.zip"
+Invoke-WebRequest -Uri "https://r.seb.cl/Fuentes.zip"  -OutFile "$HOME\Fuentes.zip"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/choko.bat" -OutFile "$HOME\choko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/shoko.bat" -OutFile "$HOME\shoko.bat"
 Invoke-WebRequest -Uri "https://gist.githubusercontent.com/sebolio/b38f7ef6db673fd32b5f5366f0d97e86/raw/bd3eea8019b3803c59ce5415d92e88d0f56fb474/wslconfig" -OutFile "$HOME\.wslconfig"
